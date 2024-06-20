@@ -1,0 +1,36 @@
+{
+  "name": "job_portal",
+  "version": "1.0.0",
+  "description": "A portal to apply for jobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "dias",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.272.0",
+    "aws-sdk": "^2.1258.0",
+    "axios": "^1.1.3",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "emoji-regex": "^10.2.1",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "mysql2": "^3.0.0-rc.1",
+    "nodemon": "^2.0.20",
+    "pm2": "^5.2.2",
+    "sequelize": "^6.25.4",
+    "shortid": "^2.2.16",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
